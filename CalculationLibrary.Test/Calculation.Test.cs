@@ -29,7 +29,7 @@ public class Calculation_Test
     
     [Theory]
     [InlineData(4,2,2)]
-    [InlineData(5,2,2.5)]
+    [InlineData(5,0,0)]
     public void DivideShouldReturnedExpectedValue(double x, double y, double expected)
     {
 
